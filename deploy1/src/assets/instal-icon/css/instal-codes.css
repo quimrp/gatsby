@@ -1,0 +1,7 @@
+
+.icon-window:before {
+    content: '\e800';
+    vertical-align: middle; 
+    display: inline-block;
+    margin-top: -0.6em;
+    } /* '' */

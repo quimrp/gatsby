@@ -1,0 +1,24 @@
+.wordpress-post {
+    background-color: black;
+    margin-bottom: 100px;
+    position: relative;
+}
+.post {
+    background-color: black;
+    position: sticky;
+}
+.my-post-template h1 {
+    font-size: 2rem;
+    color: #333;
+    padding:90px;
+    text-align:center;
+  }
+  
+  .wordpress-content {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .wordpress-comments {
+    margin-left: 10%;
+    margin-right: 10%;
+  }

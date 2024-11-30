@@ -1,0 +1,76 @@
+{
+    "SUBVENCIONES PARA VENTANAS" : "SUBVENCIONES PARA VENTANAS<br/> NEXT GENERATION 2024",
+ "windows_savings": "CONSIGUE UN AHORRO DE HASTA UN 40% CON EL CAMBIO DE TUS VENTANAS",
+ "solicitar_presupuesto" :"Si necesitas solicitar presupuesto o consultarnos cualquier duda.<br /> Rellena este formulario",
+ "PRESUPUESTO PARA VENTANAS" : "PRESUPUESTOS PARA VENTANAS",
+
+    "Instal Tancaments logo in white": "Logo de Instal Tancaments en blanco",
+    "Instal Tancaments logo": "Logo de Instal Tancaments",
+    "Close": "Cerrar",
+    "Inicio": "Inicio",
+    "Subvención": "Subvención",
+    "Características": "Características",
+    "Precios": "Precios",
+    "Contacto": "Contacto",
+    "Buscar palabras clave": "Buscar palabras clave",
+    "Introduce tus palabras clave y presiona Enter.": "Introduce tus palabras clave y presiona Enter.",
+    "SUBVENCIONES PARA VENTANAS1 " : "SUBVENCIONES PARA VENTANAS",
+    
+    "*******BlackFridayOfert": "BlackFridayOfert",
+
+    "¡Oferta Especial de Black Friday!": "¡Oferta Especial de Black Friday!",
+    "Ventanas de Alta Eficiencia": "Ventanas de Alta Eficiencia",
+    "Hemos negociado con nuestros proveedores para ofrecerte precios especiales en la semana de Black Friday. Esta es una oportunidad única para cambiar tus ventanas y mejorar la eficiencia energética de tu hogar.": "Hemos negociado con nuestros proveedores para ofrecerte precios especiales en la semana de Black Friday. Esta es una oportunidad única para cambiar tus ventanas y mejorar la eficiencia energética de tu hogar.",
+    "Recuerda, esta oferta es limitada y no podemos garantizar los mismos precios después de esta semana, ya que dependen de nuestros proveedores. ¡Aprovecha ahora!": "Recuerda, esta oferta es limitada y no podemos garantizar los mismos precios después de esta semana, ya que dependen de nuestros proveedores. ¡Aprovecha ahora!",
+    "Financiación Especial": "Financiación Especial",
+    "Además, hemos llegado a un acuerdo con nuestra entidad financiera para ofrecer financiación especial durante esta semana. Puedes financiar tu compra hasta en 12 meses sin intereses.": "Además, hemos llegado a un acuerdo con nuestra entidad financiera para ofrecer financiación especial durante esta semana. Puedes financiar tu compra hasta en 12 meses sin intereses.",
+    "¡No dejes pasar esta oportunidad de mejorar tu hogar sin preocupaciones económicas!": "¡No dejes pasar esta oportunidad de mejorar tu hogar sin preocupaciones económicas!",
+    "¡Aprovecha las Ayudas del Gobierno!": "¡Aprovecha las Ayudas del Gobierno!",
+    "Además, puedes combinar nuestra oferta con la subvención Next Generation, que te permite obtener un ahorro de hasta el 40% del precio de las ventanas, con un máximo de 3.000 euros. Esto te permite conseguir un ahorro total de hasta el 50%.": "Además, puedes combinar nuestra oferta con la subvención Next Generation, que te permite obtener un ahorro de hasta el 40% del precio de las ventanas, con un máximo de 3.000 euros. Esto te permite conseguir un ahorro total de hasta el 50%.",
+    "No pierdas la oportunidad de modernizar tu hogar. ¡Solicita tu presupuesto hoy mismo!": "No pierdas la oportunidad de modernizar tu hogar. ¡Solicita tu presupuesto hoy mismo!",
+    "Solicitar Presupuesto": "Solicitar Presupuesto",
+
+    "********componenteBlackFridayOfert": "BlackFridayOfert",
+
+    "blackFridayTitle": "¡Black Friday!",
+    "windowsTitle": "VENTANAS",
+    "discountText": "10% descuento +",
+    "nextGenText": "40% NextGen* +",
+    "financingText": "Financiación 0% a 12 meses*",
+    "conditionsText": "*Debes cumplir las condiciones de la subvención y la financiación debe ser aprobada por la financiera",
+
+
+    "*****componente-faqBlackFriday": "faqBlackFridat",
+
+
+
+    "faq_black_friday_title": "Oferta Black Friday Preguntas Frecuentes",
+    "faq_black_friday_intro": "Las siguientes preguntas son las dudas que más frecuentemente tienen nuestros clientes.",
+    "faq_black_friday_offer_includes": "¿Qué incluye la oferta exactamente?",
+    "faq_black_friday_offer_details": "La oferta de Black Friday incluye un descuento del 10%, además de la opción de financiar tu compra al 0% de intereses en 12 meses, si la financiera aprueba tu operación. También, si cumples los requisitos, puedes solicitar la subvención NextGen, que puede ser de hasta 3000€.",
+    "faq_black_friday_deadline": "¿Cuándo finaliza el plazo?",
+    "faq_black_friday_deadline_details": "El plazo finaliza el día 29 de noviembre, pero necesitamos varios días para elaborar el presupuesto y solicitar la financiación, ya que para el 29 de noviembre debemos tener toda la documentación tramitada. Si te interesa la oferta, no esperes al último momento para solicitarla, porque si estás fuera de plazo, no podremos mantener la promoción.",
+    "faq_black_friday_offer_dates": "¿Por qué la oferta es solo en estas fechas?",
+    "faq_black_friday_offer_dates_details": "Estos descuentos, exceptuando la subvención NextGen, dependen de nuestros proveedores de ventanas y de la financiera. Por lo tanto, pasada la fecha, no está en nuestra mano mantener la oferta. Si te interesa, ¡aprovéchala! Es la mejor oferta que hemos tenido en mucho tiempo.",
+    "faq_black_friday_financing": "¿Cómo funciona la financiación?",
+    "faq_black_friday_financing_details_1": "La financiación depende de la aprobación de la entidad financiera, la cual evaluará el riesgo de cada solicitud y puede aprobarla o no, según el caso. Puedes domiciliar los pagos en tu banco actual, por lo que no hace falta que cambies de entidad.",
+    "faq_black_friday_financing_details_2": "Generalmente, la documentación requerida para solicitar la financiación incluye:",
+    "faq_black_friday_financing_dni": "DNI: Fotografía por ambos lados.",
+    "faq_black_friday_financing_bank_receipt": "Recibo bancario: Que acredite la propiedad de la cuenta.",
+    "faq_black_friday_financing_account_number": "Número de cuenta: Donde se domiciliarán los pagos.",
+    "faq_black_friday_financing_salary": "Nómina: En algunos casos, puede ser necesario presentar alguna nómina.",
+    "faq_black_friday_financing_unique_case": "Recuerda que cada caso es único y la financiera evaluará la documentación presentada para tomar una decisión.",
+    "faq_black_friday_nextgen_subsidy": "¿Qué es exactamente la subvención NextGen?",
+    "faq_black_friday_nextgen_details_1": "La subvención Next Gen es una ayuda del gobierno europeo destinada a la mejora de la eficiencia energética de los hogares. Permite beneficiarse de un apoyo de hasta el 40% del precio de las ventanas, con un importe máximo de 3.000 euros.",
+    "faq_black_friday_nextgen_requirements_intro": "Si cumples todos los requisitos, puedes aprovechar esta subvención. Los requisitos principales son:",
+    "faq_black_friday_nextgen_requirements_residence": "Estar empadronado en la vivienda.",
+    "faq_black_friday_nextgen_requirements_windows": "Que las ventanas cumplan con el aislamiento mínimo requerido.",
+    "faq_black_friday_nextgen_contact": "Para más información sobre los requisitos y cómo acceder a la subvención, no dudes en ponerte en contacto con nosotros.",
+    "faq_black_friday_contact": "Si tienes alguna otra duda,",
+    "faq_black_friday_contact_link": "consúltanos aquí"
+
+
+}
+
+
+  

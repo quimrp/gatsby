@@ -1,0 +1,15 @@
+.special-countdown-banner {
+    font-size: 2rem; /* Ajusta el tamaño del texto */
+    padding: 20px;   /* Espaciado adicional alrededor del banner */
+    background-color: #e69810; /* Fondo claro */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.special-countdown-banner .badge {
+    font-size: 1.5rem; /* Tamaño más grande para los números */
+    padding: 10px 20px; /* Espaciado interno en las etiquetas */
+}
+
+.special-countdown-banner .text-light {
+    font-size: 1.2rem; /* Tamaño más grande para las etiquetas de tiempo */
+}

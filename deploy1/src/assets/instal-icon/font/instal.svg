@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2024 by original authors @ fontello.com</metadata>
+<defs>
+<font id="instal" horiz-adv-x="1000" >
+<font-face font-family="instal" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="window" unicode="&#xe800;" d="M65 800l0-50 435 0 436 0 0 50 0 50-436 0-435 0 0-50z m91-263l0-158 159 0 158 0 0 158 0 157-158 0-159 0 0-157z m373 0l0-158 157 0 156 0 0 158 0 157-156 0-157 0 0-157z m-373-373l0-158 159 0 158 0 0 158 0 157-158 0-159 0 0-157z m373 0l0-158 157 0 156 0 0 158 0 157-156 0-157 0 0-157z m-464-264l0-50 435 0 436 0 0 50 0 50-436 0-435 0 0-50z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

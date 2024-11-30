@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+		<title>Naxos React Gatsby JS App Landing Page Template - Help Documentation</title>
+		
+		<!-- CSS style -->
+		<link rel="shortcut icon" href="assets/images/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/fontawesome/css/all.min.css" />
+		<link rel="stylesheet" type="text/css" href="assets/js/google-code-prettify/prettify.css" />
+		
+		<!-- Google web fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800" rel="stylesheet" type="text/css">
+		
+		<!-- jQuery -->
+		<script type="text/javascript" src="assets/js/jquery.js"></script>
+		<script type="text/javascript" src="assets/js/main.js"></script>
+		<script type="text/javascript" src="assets/js/google-code-prettify/prettify.js"></script>
+	</head>
+	<body>
+		
+		<!-- Header -->
+		<header>
+			<div class="container">
+				<div class="logo">Naxos React Gatsby JS<br>App Landing Page Template</div>
+				<div class="slogan">Fully responsive and mobile friendly App showcase React Gatsby template</div>
+			</div>
+		</header>
+		
+		<!-- Container -->
+		<div class="container">
+		
+			<div class="avatar">
+				<a href="https://1.envato.market/athenastudio"><img src="assets/images/logo.png" width="350" height="50" alt="AthenaStudio" title="AthenaStudio" /></a>
+			</div>
+		
+			<div class="author">
+				Created: <strong>04/02/2022</strong><br />
+				Last Update: <strong>24/01/2024</strong><br />
+				By: <strong><a href="https://1.envato.market/athenastudio">AthenaStudio</a></strong><br />
+				E-mail: <strong><a href="mailto:athenastudio87@hotmail.com">athenastudio87@hotmail.com</a></strong><br />
+				Twitter: <strong><a href="https://twitter.com/AthenaStudio87">twitter.com/AthenaStudio87</a></strong>
+			</div>
+			
+			<h2 class="alt">Table of Contents</h2>
+			<ol class="alpha">
+				<li><a href="#directories">Directories</a></li>
+				<li><a href="#font">Font Used</a></li>	
+				<li><a href="#installation">Installation</a></li>
+				<li><a href="#folders">Folder Structure</a></li>
+				<li><a href="#colors">Color Schema</a></li>
+				<li><a href="#bg">Background Image - Video</a></li>
+				<li><a href="#mailchimp">Mailchimp</a></li>
+				<li><a href="#contact">Contact Form</a></li>
+				<li><a href="#googlemaps">Google Maps</a></li>
+				<li><a href="#rtl">RTL Languages</a></li>				
+			</ol>
+			
+			<hr />
+			<h3 id="directories">A) Directories</h3>
+			<p>
+				<b>source</b> - PSD files.
+			</p>
+			<p>
+				<b>deploy</b> – Published files to use the theme where you can modify all content and features.
+				These are the files you need to <span class="note">upload to your server</span>.
+			</p>
+			<p><b>help</b> – Help file (HTML)</p>
+			
+			<hr />
+			<h3 id="font">B) Font Used</h3>
+			<p>
+				<strong>Roboto</strong> - <a href="https://fonts.google.com/specimen/Roboto" target="_blank">https://fonts.google.com/specimen/Roboto</a><br />
+				<strong>Font Awesome</strong> - <a href="https://fontawesome.com/" target="_blank">https://fontawesome.com/</a><br />
+				<strong>Linea</strong> - <a href="https://github.com/linea-io/Linea-Iconset" target="_blank">https://github.com/linea-io/Linea-Iconset</a>
+			</p>
+			<p>You can change font from CSS file.</p>
+			
+			<hr />
+			<h3 id="installation">C) Installation</h3>			
+			<p>
+				<strong>Node.js and NPM</strong><br>
+				You can download Node.js from https://nodejs.org. NPM comes bundled with Node.js.
+			</p>
+			
+			<p>
+				<strong>Install NPM Packages</strong><br>
+				Open <strong>deploy</strong> folder with Visual Studio Code (or any other you like). And follow step below: 
+			</p>
+			
+			<p>
+				<strong>NPM</strong><br>
+				You must have to run <code>npm install</code> packages. You can do this by running <code>npm install</code> from the root of your project to install all the necessary dependencies. 
+				If it gives error/warning you can run it as <code>npm install <i>--force</i></code>
+			</p>
+			
+			<p>
+				<strong>Development Server</strong><br>
+				Run <code>npm run dev</code> or <code>yarn dev</code> for a dev server.<br> 
+				Navigate to <a href="http://localhost:8000" target="_blank">http://localhost:8000</a>. 
+				The App will automatically reload if you change any of the source files. 
+			</p>
+			
+			<p>
+				<strong>Build For Production And Launch Server</strong><br>
+				Run <code>npm run build</code> and then <code>npm run start</code>				
+			</p>
+			
+			<p>
+				<a href="https://www.gatsbyjs.com/docs/deploying-and-hosting/" target="_blank">Read deployment document</a> on Gatsby.
+			</p>
+			
+			<hr />
+			<h3 id="folders">D) Folder Structure</h3>
+			<pre class="prettyprint lang-js linenums">
+deploy/
++
+├─── src
+│   ├─── assets
+│   ├─── components
+│   │   ├─── 404
+│   │   ├─── Blog
+│   │   ├─── BlogPost
+│   │   ├─── Contact
+│   │   ├─── Intro
+│   │   ├─── Sections
+│   │   ├─── Worker
+│   ├─── images
+│   ├─── pages
+│   │   ├─── 404.js
+│   │   ├─── blog-post.js
+│   │   ├─── blog.js
+│   │   ├─── contact.js
+│   │   ├─── index.js
+│   │   ├─── slide.js
+│   │   ├─── video.js
+│   │   ├─── worker.js
+├─── static
+│   ├─── colors
+</pre>
+			
+			<hr />
+			<h3 id="colors">E) Color Schema</h3>
+			<p>Naxos comes with 8 predefined colors <strong>blue</strong>, <strong>green</strong>, <strong>red</strong>, <strong>turquoise</strong>, <strong>purple</strong>, <strong>orange</strong>, <strong>yellow</strong> and <strong>grey</strong>.</p>
+			<p>You can change the title and color of each page by the following variable:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;Layout 
+    pageTitle="Naxos - React Gatsby App Landing Page Template" 
+    colorSchema="../colors/blue.css" 
+&gt;
+</pre>
+			
+			<hr />
+			<h3 id="bg">F) Background Image - Video</h3>
+			<p><strong>Single Image</strong></p>
+			<p>Open <strong>components/Intro/SingleImage.js</strong> in a text editor. You'll see the following code:</p>
+			<pre class="prettyprint lang-js linenums">
+&lt;BackgroundSlider
+    duration={100000}
+    transition={0.75}
+    className="image-bg"
+    images={['/images/banner/single-image.jpg']}
+/&lt;
+</pre>			
+			
+			<p><strong>Image Slideshow</strong></p>
+			<p>Open <strong>components/Intro/SlideShow.js</strong> in a text editor. You'll see the following code:</p>
+			<pre class="prettyprint lang-js linenums">
+&lt;BackgroundSlider
+    duration={100000}
+    transition={0.75}
+    className="image-bg"
+    images={[
+        '/images/banner/slideshow-1.jpg',
+        '/images/banner/slideshow-2.jpg',
+        '/images/banner/slideshow-3.jpg'
+    ]}
+/&lt;
+</pre>	
+			
+			<p><strong>Youtube Background</strong></p>
+			<p>Open <strong>components/Intro/VideoBackground.js</strong> in a text editor. You'll see the following code:</p>
+			<pre class="prettyprint lang-html linenums">
+&lt;YouTube 
+    videoId='<strong>mqEeWiRwv0k</strong>' 
+    className="video-bg" 
+    containerClassName="video-bg-wrapper" 
+    opts = {opts} 
+/gt;
+</pre>		
+
+			<p>You can the video by replacing <strong>mqEeWiRwv0k</strong> with your own Youtube video ID.</p>
+
+			<hr />
+			<h3 id="mailchimp">G) Mailchimp</h3>
+			<p>Mailchimp is intergrated to Naxos.</p>
+			<p>Mailchimp (subscription) in the file changes <strong>main.js</strong>.</p>
+			<p>In url parameter you have to put your signup form URL. Follow these steps to get this URL address:</p>
+			
+			<ol>
+				<li>Login to <strong>Mailchimp</strong> and go to <strong>Audience</strong></li>
+				<li>Open your chosen list and click on <strong>Signup</strong> forms</li>
+				<li>Click on <strong>General</strong> forms</li>
+				<li>Find Signup form URL, copy the URL</li>
+				<li>Open in your browser this page: <a href="https://www.unshorten.it/" target="_blank">www.unshorten.it</a>, paste Signup form URL and press unshorten button</li>
+				<li>You'll resolve URL similar to this one:
+				</li>
+			</ol>	
+				
+			<pre class="prettyprint lang-html linenums">
+https://USERNAME.SERVER.list-manage.com/subscribe/post-json?u=USER_ID&id=AUDIENCE_ID
+</pre>
+
+			<p>Replace <strong>UPPERCASE</strong> variables at the subscription url which is located in <strong>components/Sections/Subscribe.js</strong>:</p>
+			<pre class="prettyprint lang-html linenums">
+https://USERNAME.SERVER.list-manage.com/subscribe/post-json?u=USER_ID&id=AUDIENCE_ID
+</pre>
+			
+			<hr />
+			<h3 id="contact">H) Contact Form</h3>
+			<p>Contact form is integrated with <strong>Formspree</strong> - <a href="https://formspree.io/" target="_blank">https://formspree.io/</a>.</p>
+			<p>Create an account at Formspree.</p>
+			<p>Open <strong>Integration</strong> tab. You'll see the form url like below:</p>
+			<p>https://formspree.io/f/<strong>xlezjyrv</strong></p>
+			<p>Last division is the form ID.</p>
+			<p>Search &amp; replace <strong>FORMSPREE_FORM_ID</strong> on the following files:</p>
+			<ul>
+				<li>components/Sections/Contact.js</li>
+				<li>components/Contact/ContactForm.js</li>
+			</ul>
+			
+			<hr />
+			<h3 id="googlemaps">I) Google Maps</h3>
+			<p>
+				Please, get an API key here:<br />
+				<a href="https://developers.google.com/maps/documentation/javascript/get-api-key" target="_blank">https://developers.google.com/maps/documentation/javascript/get-api-key</a>
+			</p>
+			<p>Change the demo API key with your own in <strong>components/Contact/GoogleMaps.js</strong>:</p>
+			<pre class="prettyprint lang-js linenums">
+const apiKey = 'AIzaSyCvetqDPTxK7Hfgx5iE9P9LwmjXZTnwlXs';
+</pre>
+			
+			<hr />
+			<h3 id="rtl">J) RTL Languages</h3>
+			<p>Firstly, add following HTML tag to the beginning of the <strong>components/Sections/Layout.js</strong> as the main container:</p>
+			<pre class="prettyprint lang-html linenums">
+&lt;bdo dir="rtl" lang="<i>COUNTRY CODE</i>"&gt;
+    &lt;div&gt;
+        ...
+    &lt;/div&gt;
+&lt;/bdo&gt;
+</pre>
+			
+			<p>Then, import <strong>Bootstrap</strong> CSS file with RTL version:</p>
+			<pre class="prettyprint lang-html linenums">
+import 'bootstrap/dist/css/bootstrap.rtl.min.css';
+</pre>
+			
+			<p>After that, import <strong>rtl.css</strong>:</p>
+			<pre class="prettyprint lang-html linenums">
+import '~assets/css/rtl.css';
+</pre>
+			
+			<p>Finally, edit <strong>components/Sections/Testimonials.js</strong> and replace all <i>rtl: false</i>:</p>
+			<pre class="prettyprint lang-html linenums">
+rtl: true
+</pre>
+
+		</div>
+		
+		<!-- Social profiles -->
+		<footer>				
+			<div class="container">
+				
+				<span class="copyright">
+					Copyright © <a href="https://1.envato.market/athenastudio" target="_blank">AthenaStudio</a><br>
+					<span class="social">
+						<a href="https://twitter.com/athenastudio87" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+						<a href="https://www.facebook.com/athenastudio87" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://www.instagram.com/athenastudioco/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+						<a href="https://dribbble.com/AthenaStudio" title="Dribbble" target="_blank"><i class="fab fa-dribbble"></i></a>					
+						<a href="https://www.behance.net/athenastudio" title="Behance" target="_blank"><i class="fab fa-behance"></i></a>
+						<a href="https://medium.com/@athenastudio" title="Medium" target="_blank"><i class="fab fa-medium-m"></i></a>
+						<a href="https://pinterest.com/athenastudio87" target="_blank" title="Pinterest" class="pinterest"><i class="fab fa-pinterest-p"></i></a> 
+						<a href="https://www.youtube.com/channel/UCQkSgRRBtgxdUbAOOMu6oeQ" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+					</span>
+				</span>	
+			</div>
+		</footer>
+		
+		<!-- Go to top arrow -->
+		<div class="totop">
+		   <div class="gototop">
+				<div class="arrowgototop"></div>
+		   </div>
+	  	</div>
+	  
+	</body>
+</html>
